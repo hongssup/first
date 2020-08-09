@@ -30,7 +30,7 @@ class DataCenter {
         let yeoksamBranch = Branch(name: "역삼점")
         let sinrimBranch = Branch(name: "신림점")
         let songdoBranch = Branch(name: "송도점")
-        let anamBranch = Branch(name: "안암점")
+        let anamBranch = Branch(name: "혜화점")
         pangyoBranch.services = [vehicleService, meetingRoomService, visitorService, deskService]
         
         branches += [pangyoBranch, samsungBranch, yeoksamBranch, sinrimBranch, songdoBranch, anamBranch]
